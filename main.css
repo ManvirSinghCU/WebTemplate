@@ -1,0 +1,22 @@
+.height{
+    min-height: 100vh;
+}
+
+.title-underline{
+    width: 280px;
+    height: 8px;
+    margin: 0 auto;
+    /* background: blue!important; */
+}
+
+.height-80{
+    min-height: 80vh;
+}
+
+.education-picture{
+    background: url(../WebTemplate/images/education.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
