@@ -9,6 +9,26 @@
     /* background: blue!important; */
 }
 
+.title-underline-experience{
+    width: 180px;
+    height: 8px;
+    margin: 0 auto;
+    background: blue!important; 
+}
+
+.title-underline-experience2{
+    width: 600px;
+    height: 8px;
+    margin: 0 auto;
+    background: blue!important; 
+}
+
+.title-underline-experience3{
+    width: 500px;
+    height: 8px;
+    margin: 0 auto;
+    background: blue!important; 
+}
 .height-80{
     min-height: 70vh;
 }
@@ -20,3 +40,5 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
