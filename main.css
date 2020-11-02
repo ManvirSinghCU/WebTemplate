@@ -38,7 +38,7 @@
 }
 
 .education-picture{
-    background: url(../WebTemplate/images/education.jpg);
+    background: url(../WebTemplate/images/concordiaImg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 }
 
 .ios-picture{
-    background: url(../WebTemplate/images/iosImg.jpg);
+    background: url(../WebTemplate/images/iphoneimg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
