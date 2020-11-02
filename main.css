@@ -13,21 +13,21 @@
     width: 180px;
     height: 8px;
     margin: 0 auto;
-    background: blue!important; 
+    background: yellow!important; 
 }
 
 .title-underline-experience2{
     width: 600px;
     height: 8px;
     margin: 0 auto;
-    background: blue!important; 
+    background: yellow!important; 
 }
 
 .title-underline-experience3{
     width: 500px;
     height: 8px;
     margin: 0 auto;
-    background: blue!important; 
+    background: yellow!important; 
 }
 .height-80{
     min-height: 70vh;
@@ -41,9 +41,6 @@
     background-attachment: fixed;
 }
 
-.test1{
-    background-color: chartreuse;
-}
 
 .textcolorRed{
     color: red;
