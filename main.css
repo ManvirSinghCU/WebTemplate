@@ -45,6 +45,14 @@
     background-color: chartreuse;
 }
 
-#ghg{
-    
+.textcolorRed{
+    color: red;
+}
+
+.textcolourBlue{
+ color: blue;   
+}
+
+.backgroudcolorBlue{
+    background-color: lightblue;
 }
