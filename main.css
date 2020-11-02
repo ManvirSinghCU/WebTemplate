@@ -50,6 +50,9 @@
  color: blue;   
 }
 
+.textcolourLightBlue{
+    color: lightblue;   
+   }
 .backgroudcolorBlue{
     background-color: lightblue;
 }
