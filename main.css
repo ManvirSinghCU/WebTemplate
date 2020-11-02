@@ -62,7 +62,7 @@
 }
 
 .ios-picture{
-    background: url(../WebTemplate/images/iosImg.png);
+    background: url(../WebTemplate/images/iosImg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,6 +88,11 @@
 .textcolourLightBlue{
     color: lightblue;   
    }
+
 .backgroudcolorBlue{
     background-color: lightblue;
+}
+
+.backgroudcolorBlueNAV{
+    background-color: blue;
 }
