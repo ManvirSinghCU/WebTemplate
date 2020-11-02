@@ -44,6 +44,37 @@
     background-attachment: fixed;
 }
 
+.developer-picture{
+    background: url(../WebTemplate/images/developerImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.scrum-picture{
+    background: url(../WebTemplate/images/scrumImg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ios-picture{
+    background: url(../WebTemplate/images/iosImg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.frontend-picture{
+    background: url(../WebTemplate/images/frontendImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 .textcolorRed{
     color: red;
