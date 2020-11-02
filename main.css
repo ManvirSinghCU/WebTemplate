@@ -34,8 +34,9 @@
 }
 
 .height-50{
-    min-height: 25vh;
+    min-height: 50vh;
 }
+
 .education-picture{
     background: url(../WebTemplate/images/education.jpg);
     background-size: cover;
