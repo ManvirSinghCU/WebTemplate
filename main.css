@@ -77,10 +77,6 @@
     background-attachment: fixed;
 }
 
-.textcolorRed{
-    color: red;
-}
-
 .textcolourBlue{
  color: blue;   
 }
@@ -91,8 +87,4 @@
 
 .backgroudcolorBlue{
     background-color: lightblue;
-}
-
-.backgroudcolorBlueNAV{
-    background-color: blue;
 }
