@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Jquery-->
+    <!-- <script src="jquery/jquery-3.5.1.min.js"></script>  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+    <title>Profile-Manvir Singh</title>
+</head>
+<body>
+<h1>Profile</h1>
+    <div id="container1" class="container">My Container one</div>
+    <div id="container2" class="container">My Container Two</div>
+    <div id="container3" class="container">My Container three</div>
+
+<button id="btn_reset">Reset</button>
+
+<script>
+$(function() {
+   /* $("#container1").click(function(){
+       alert("Conter 1 click"); 
+    });
+
+    $("#container2").click(function(){
+       alert("Conter 2 click"); 
+    });
+
+    $("#container3").click(function(){
+       alert("Conter 3 click"); 
+    });
+    */
+
+    $(".container").click(function(){
+        var container = $(this).attr("id");
+        alert(container+ " Clicked");
+        $(this).fadeOut(3000);
+    });
+
+    $("#btn_reset").click(function(){
+        $(".container").show();   
+    });
+
+});
+</script>
+    
+</body>
+
+</html>
