@@ -9,6 +9,13 @@
     /* background: blue!important; */
 }
 
+.title-underline-400px{
+    width: 400px;
+    height: 8px;
+    margin: 0 auto;
+    background: yellow!important; 
+}
+
 .title-underline-experience{
     width: 180px;
     height: 8px;
