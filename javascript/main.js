@@ -6,7 +6,7 @@ https://www.facebook.com/sharer.php?u=[post-url]
 
 
 Twitter:
-https://twitter.com/share?url=[post-url]&text=[post-title]&via=[via]&hashtags=[hashtags]
+https://twitter.com/share?url=[post-url]&text=[post-title]
 
 
 Linkedin:
@@ -27,9 +27,9 @@ function init() {
     let postURL = encodeURI(document.location.href);
     let postTitle = encodeURI("Hi, please check this out: ");
 
-    facebookBtn.setAttribute("href",`https://www.facebook.com/sharer.php?u=${postURL}`);
+    facebookBtn.setAttribute("href", `https://www.facebook.com/sharer.php?u=${postURL}`);
     twitterBtn.setAttribute("href", `https://twitter.com/share?url=${postURL}&text=${postTitle}`);
-    linkedinBtn.setAttribute("href",`https://www.linkedin.com/shareArticle?url=${postURL}&title=${postTitle}`);
+    linkedinBtn.setAttribute("href", `https://www.linkedin.com/shareArticle?url=${postURL}&title=${postTitle}`);
     whatsappBtn.setAttribute("href", `https://api.whatsapp.com/send?text=${postTitle} ${postURL}`);
 }
 
