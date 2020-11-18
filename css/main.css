@@ -117,8 +117,11 @@
     transform: translateY(-50%);
 }
 
-.share-btn-container a i {
+/* .share-btn-container a i {
     font-size: 50 px;
+} */
+.fontSize{
+    font-size: 32px;
 }
 
 .share-btn-container a {
