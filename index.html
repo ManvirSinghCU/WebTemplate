@@ -71,10 +71,6 @@
       <!-- end of share  buttons-->
 
 
-  <!--    <? php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."social.html"); ?>  -->
-
-      <div w3-include-html ="assets/php/social.html"></div>
-
       <!-- Header section-->
       <header id="header" class="bg-dark">
           <div class="container">
@@ -182,13 +178,13 @@
          </div>
          <!-- End of title-->
           <!-- adding a button -->
-          <div class="checkbox-item d-flex mt-5 align-self-center">
+          <div class=" marginCheckbox checkbox-item d-flex mt-5 align-self-center ml-5">
            <i class="fas fa-check p-2 bg-warning mr-3 align-self-center"></i>
            <p class="h3    mt-3 text-primary col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">Relation b/w MOOD Metric & Maintainability</p>
          <a href="/MOOD.htm"  
             class="btn btn-outline-primary textcolourLightBlue text-capitalize m-2 btn-lg col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-6" target="_blank">I.E.E.E Paper</a>
          </div>
-         <div class="checkbox-item d-flex">
+         <div class="marginCheckbox checkbox-item d-flex ml-5">
           <i class="fas fa-check p-2 bg-warning mr-3 align-self-center"></i>
           <p class="h3    mt-3 text-primary text-capitalize col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">Website (Learning Bootstrap & Angular)</p>
         <a href="https://www.cybersemantic.com/home" 
@@ -306,5 +302,14 @@
                   $("#header").fadeOut(3000);
                 });
               </script> -->
+              <!-- <div id="social"></div> 
+              <script>
+                $(document).ready(function(){
+                  $('.share-btn-container').click(function(){
+                    $('#social').load('social.html');
+                  });
+                });
+              </script> -->
+
 </body>
 </html>
