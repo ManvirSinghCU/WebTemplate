@@ -18,6 +18,10 @@ https://api.whatsapp.com/send?text=[post-title] [post-url]
 
 */
 
+
+
+
+
 const facebookBtn = document.querySelector(".facebook-btn");
 const twitterBtn = document.querySelector(".twitter-btn");
 const linkedinBtn = document.querySelector(".linkedin-btn");
