@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="aos.css">
     
     <!-- Font awesome-->
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-
+    <script src="aos.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
@@ -54,7 +55,7 @@
 
 
       <!-- share  buttons-->
-        <div class="share-btn-container">
+        <div data-aos="zoom-in-right" class="share-btn-container">
           <a href="#" class="facebook-btn " target="_blank">
             <i class="fab fa-facebook"></i>
           </a>
@@ -73,8 +74,8 @@
 
       <!-- Header section-->
       <header id="header" class="bg-dark">
-          <div class="container">
-              <div class="row height align-items-center">
+          <div data-aos="zoom-in" class="container">
+              <div  class="row height align-items-center">
                   <div class="col">
                     <h1 class="text-primary ">
                         <strong>Profile</strong>
@@ -124,7 +125,7 @@
                 <!-- </div> -->
                 <!-- text coloum-->
                 <div class="col-md-6  height-80 px-5 d-flex align-items-center justify-content-center">
-                <div class="study-text-center">
+                <div data-aos="fade-left" class="study-text-center">
                       <!-- Title-->
                         <div class="row">
                         <div class="col text-center">
@@ -158,7 +159,7 @@
       <!-- End of Studies section-->
        <!-- IEEE and cybersematics-->
        <!-- Title-->
-       <div class="container-fluid bg-dark height-50">
+       <div data-aos="fade-right" class="container-fluid bg-dark height-50">
 
 <!----------------------------------->
 <!-- <div class="col-lg-12 row">  
@@ -196,7 +197,7 @@
 
       <!-- Technical skills section-->
       <section id="skills" class="py-3 bg-dark">
-        <div class="container backgroudcolorBlue">
+        <div data-aos="flip-up" class="container backgroudcolorBlue">
             <!-- Title-->
             <div class="row">
                 <div class="col text-center">
@@ -313,6 +314,12 @@
                   });
                 });
               </script> -->
+
+              <script type="text/javascript">
+              AOS.init({
+                  duration: 2500,
+              });
+              </script>
 
 </body>
 </html>
